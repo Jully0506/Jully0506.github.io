@@ -1,0 +1,15 @@
+*{font-family:Arial; font-size:x-large;}
+div.one{background-color:#D4E6F1; border-style:dashed; border-width:6px; border-color:#6C3483; width:24%; height:50%; float:left;}
+div.one li a:link{color:blue;}
+div.one li a:visited{color:#8E44AD;}
+div.two{background-color:#F7DC6F; border-style:solid; border-width:6px; border-color:#7DCEA0; width:24%; height:50%; float:left;}
+div.two li a:link{color:red;}
+div.two li a:visited{color:#7DCEA0;}
+div.three{background-color:#D4E6F1; border-style:inset; border-width:6px; border-color:#6C3483; width:24%; height:50%; float:left;}
+div.three li a:link{color:blue;}
+div.three li a:visited{color:#8E44AD;}
+div.three li.all a:hover{color:yellow;}
+div.four{background-color:#F7DC6F; border-style:outset; border-width:6px; border-color:#7DCEA0; width:24%; height:50%; float:left;}
+div.four li a:link{color:blue;}
+div.four li a:visited{color:#8E44AD;}
+div.four li a:active{color:#F1948A;}
