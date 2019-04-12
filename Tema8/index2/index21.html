@@ -6,9 +6,9 @@
     <style>
       h1{font-family:Bookman Old Style; font-wight:bold; font-size:20px; color:black;}
       #1{display:inline-block; font-family:Bookman Old Style; background-color:black; padding:10px; border-width:5px; border-color:white; border-style:ridge; width:100%; height:30%; margin:25px;}
-      div.image{width:300px; height:225px;}
-      div.text{background-color:#F7DC6F; color:black; padding:5px; font-size:xx-large;}
-      div.audio{background-color:#CD6155; color:white; padding:5px;}
+      div.image{display:inline-block; width:300px; height:225px;}
+      div.text{display:inline-block; background-color:#F7DC6F; color:black; padding:5px; font-size:xx-large;}
+      div.audio{display:inline-block; background-color:#CD6155; color:white; padding:5px;}
       div.audio>h2{font-size:xx-large;}
       div.audio h3{font-size:x-large;}
     </style>
@@ -16,13 +16,16 @@
   <body>
     <h1>Медіа каталог</h1>
     <div id="1">
-      <div class="image"><img src="hqdefault.jpg" alt="Led Zeppelin" width="300px" height="225px"></div>
-      <div class="text">Led Zeppelin (Лед Зе́ппелін, походить від англ. Lead Zeppelin — «свинцевий дирижабль») — британський рок-гурт, що вважається одним із засновників хард-року та хеві-металу.
-      Led Zeppelin досі високо шанується за музичні досягнення, нестандартність, комерційний успіх і широкий вплив. Гурт продав понад 300 мільйонів альбомів у світі[5][6][7][8][9], включно із 112 мільйонами в США</div>
+      <div class="image">
+        <img src="hqdefault.jpg" alt="Led Zeppelin" width="300px" height="225px">
+      </div>
+      <div class="text">
+        Led Zeppelin (Лед Зе́ппелін, походить від англ. Lead Zeppelin — «свинцевий дирижабль») — британський рок-гурт, що вважається одним із засновників хард-року та хеві-металу.Led Zeppelin досі високо шанується за музичні досягнення, нестандартність, комерційний успіх і широкий вплив. Гурт продав понад 300 мільйонів альбомів у світі, включно із 112 мільйонами в США.
+      </div>
       <div class="audio"><h2>Whole Lotta Love</h2><br>
         <h3>Trek 1</h3><a href="Led+Zeppelin+1969+Led+Zeppelin+II+Whole+Lotta+Love.mp3" type="audio/mpeg3"><br>
         <h3>Trek 2</h3><audio src="Led+Zeppelin+1969+Led+Zeppelin+II+Whole+Lotta+Love.mp3" type="audio/mpeg3" controls></audio>
-        </div>
       </div>
+     </div>
   </body>
 </html>
