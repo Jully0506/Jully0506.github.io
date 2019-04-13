@@ -49,3 +49,48 @@ background-color:grey;
  color:white;
  font-size:20px;
  }
+div.two{
+background-color:#F7DC6F;
+ font-family:Bookman Old Style;
+ font-size:100px;
+ width:90%;
+ height:40%;
+ margin:50px;
+ border-color:grey;
+ border-width:10px;
+ border-style:ridge;
+ color:white;
+ }
+  div.image1,div.content3,div.content4{
+ display:inline-block;
+ overflow:auto;
+ height:90%;
+ }
+ div.two>div.image1{
+ width:300px;
+ background-color:black;
+ margin:10px 0px;
+ }
+ div.two>div.content3{
+ width:48%;
+ background-color:grey;
+ margin:10px 0px;
+ padding:3px;
+ }
+  div.two>div.content4{
+ width:20%;
+ margin:10px 0px;
+ background-color:#E67E22;
+ }
+ div.content3>p{
+ color:black;
+ font-size:x-large;
+ }
+ div.content4>h2{
+ color:white;
+ font-size:25px;
+ }
+ div.content4 p{
+ color:white;
+ font-size:20px;
+ }
