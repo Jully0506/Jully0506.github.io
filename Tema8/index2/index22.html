@@ -1,21 +1,46 @@
 <html>
-  <head>
-    <title>
-      Фото колаж Box
-    </title>
-    <style>
-      img.1{position:inherit;}
-      img.2{position:static;}
-      img.3{position:relative;}
-      img.4{position:fixed;}
-      img.5{position:absolute;}
-    </style>
-  </head>
-  <body>
-    <p><img class="1" src="80052713_4278666_63cfd8303577.jpg" alt="1"></p>
-    <p align="right"><img class="2" src="Кактус-цветущий.jpg" alt="2"></p>
-    <img class="3"src="Hydrangeas.jpg" alt="3">
-    <img class="4" src="Tulips.jpg" alt="4">
-    <img class="5" src="Stihi-pro-oduvanchiki-dlya-detej.jpg" alt="5">
-  </body>
+<title>
+Photos
+</title>
+<style>
+div.one, div.two, div.three, div.four, div.five{
+border-width:5px;
+border-color:#82E0AA;
+border-style:groove;
+}
+div.one{
+position:absolute;
+top:50px;
+left:300px;
+}
+div.two{
+position:absolute;
+top:50px;
+right:300px;
+}
+div.three{
+position:relative;
+top:230px;
+left:550px;
+}
+div.four{
+position:absolute;
+top:400px;
+left:300px;
+}
+div.five{
+position:absolute;
+top:400px;
+right:200px;
+width:349px;
+}
+</style>
+</head>
+<body>
+<div class="one"><img src="80052713_4278666_63cfd8303577.jpg" alt="Photo1"></div>
+<div class="two"><img src="Кактус-цветущий.jpg" alt="Photo2"></div>
+<div class="three"><img src="Hydrangeas.jpg" alt="Photo3"></div>
+<div class="four"><img src="Stihi-pro-oduvanchiki-dlya-detej.jpg" alt="Photo4"></div>
+<div class="five"><img src="Tulips.jpg" alt="Photo5"></div>
+</body>
 </html>
